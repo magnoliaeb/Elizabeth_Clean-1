@@ -1,0 +1,21 @@
+{
+  "name": "Template 404",
+  "sections": {
+    "template-error-404": {
+      "type": "template-404"
+    }
+  },
+  "order": ["template-error-404"]
+}
+// {
+//   "name": "Template 404",
+//   "layout": "custom_theme",
+//   "wrapper": "div#404_template.custom_class[custom_atribute=hello]",
+//   "sections": {
+//     "template-404": {
+//       // el id que usaremos para llamar a la sección
+//       "type": "example-404" // el id de la sección
+//     }
+//   },
+//   "order": ["template-404"]
+// }
