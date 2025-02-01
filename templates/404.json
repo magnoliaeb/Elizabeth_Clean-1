@@ -1,21 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-  "name": "Template 404",
   "sections": {
     "template-error-404": {
-      "type": "template-404"
+      "type": "template-404",
+      "settings": {}
     }
   },
-  "order": ["template-error-404"]
+  "order": [
+    "template-error-404"
+  ]
 }
-// {
-//   "name": "Template 404",
-//   "layout": "custom_theme",
-//   "wrapper": "div#404_template.custom_class[custom_atribute=hello]",
-//   "sections": {
-//     "template-404": {
-//       // el id que usaremos para llamar a la sección
-//       "type": "example-404" // el id de la sección
-//     }
-//   },
-//   "order": ["template-404"]
-// }
