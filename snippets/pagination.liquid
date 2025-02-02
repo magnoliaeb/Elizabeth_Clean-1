@@ -1,14 +1,14 @@
-{% if paginate.page > 0 %}
+{% if pagination.page > 0 %}
   <nav role="navigation" class="flex justify-center my-8">
-    {% if paginate.previous %}
+    {% if pagination.previous %}
       <a
-        href="{{ paginate.previous.url }}"
+        href="{{ pagination.previous.url }}"
         class="border border-gray-600 text-gray-600 hover:text-white hover:bg-gray-600 px-8 py-3 mx-1 font-medium "
       >
-        {{ paginate.previous.title }}
+        {{ pagination.previous.title }}
       </a>
     {% endif %}
-    {% for part in paginate.parts %}
+    {% for part in pagination.parts %}
       {% if part.is_link %}
         <a
           href="{{ part.url }}"
@@ -24,12 +24,12 @@
         </span>
       {% endif %}
     {% endfor %}
-    {% if paginate.next %}
+    {% if pagination.next %}
       <a
-        href="{{ paginate.next.url }}"
+        href="{{ pagination.next.url }}"
         class="border border-gray-600 text-gray-600 hover:text-white hover:bg-gray-600 px-8 py-3 mx-1 font-medium "
       >
-        {{ paginate.next.title }}
+        {{ pagination.next.title }}
       </a>
     {% endif %}
   </nav>
