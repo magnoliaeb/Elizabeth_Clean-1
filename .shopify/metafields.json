@@ -9,7 +9,28 @@
   "market": [],
   "order": [],
   "page": [],
-  "product": [],
+  "product": [
+    {
+      "key": "package-type",
+      "namespace": "shopify",
+      "name": "Tipo de embalaje",
+      "description": "Defines the type of packaging for a product, e.g. jar, pump",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "pet-food-form",
+      "namespace": "shopify",
+      "name": "Forma de la comida para mascotas",
+      "description": "Indicates the consistency of pet food products, such as wet or dry",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
   "variant": [],
   "shop": []
 }
